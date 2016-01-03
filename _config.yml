@@ -1,0 +1,19 @@
+safe:        false
+port:        4000
+
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+
+future:      true
+lsi:         false
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+permalink:   /:year/:month/:title
+
+title:       Advent of Code
+description: Brute force Python solutions everywhere!
+author:      Jenner Hanni
+email:       jeh.wicker@gmail.com
+
+exclude:     [_site]
+
