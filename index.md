@@ -8,6 +8,6 @@ Hi! These are solutions in Python for <a href="http://adventofcode.com/">the Adv
 
 <ol style="margin: 0px; padding: 0px; list-style-type: decimal">
 {% for post in site.posts reversed %}
-<li><a href="http://jennerhanni.net/advent-of-code/{{ post.url }}">{{ post.title }}</a></li>
+<li><a href="/advent-of-code/{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ol>
