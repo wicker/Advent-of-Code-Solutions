@@ -8,7 +8,7 @@ plugins:     ./_plugins
 future:      true
 lsi:         false
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-permalink:   /advent-of-code/:day-:title
+permalink:   /:day-:title
 
 title:       Advent of Code
 description: Brute force Python solutions everywhere!
