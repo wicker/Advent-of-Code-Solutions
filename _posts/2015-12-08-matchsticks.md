@@ -1,5 +1,5 @@
 ---
 layout: post
 title: Matchsticks
-permalink: /8-matchsticks.html
+permalink: /advent-of-code/8-matchsticks.html
 ---

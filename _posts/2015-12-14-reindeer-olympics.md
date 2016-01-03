@@ -1,5 +1,5 @@
 ---
 layout: post
 title: Reindeer Olympics
-permalink: /14-reindeer-olympics.html
+permalink: /advent-of-code/14-reindeer-olympics.html
 ---

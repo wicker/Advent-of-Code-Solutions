@@ -1,5 +1,5 @@
 ---
 layout: post
 title: Corporate Policy
-permalink: /11-corporate-policy.html
+permalink: /advent-of-code/11-corporate-policy.html
 ---

@@ -1,5 +1,5 @@
 ---
 layout: post
 title: No Such Thing as Too Much
-permalink: /17-no-such-thing-as-too-much.html
+permalink: /advent-of-code/17-no-such-thing-as-too-much.html
 ---
