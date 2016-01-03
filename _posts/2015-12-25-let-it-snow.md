@@ -1,5 +1,5 @@
 ---
 layout: post
 title: Let It Snow
-permalink: /25-let-it-snow.html
+permalink: 25-let-it-snow.html
 ---
