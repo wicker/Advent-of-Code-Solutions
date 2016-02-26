@@ -1,41 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/normalize.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/github-light.css" media="screen">
+  </head>
+  <body>
 
-  <meta charset="utf-8">
-  <title>{{ site.title }}</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="stylesheet" href="/advent-of-code/css/normalize.css">
-  <link rel="stylesheet" href="/advent-of-code/css/skeleton.css">
-  <link rel="stylesheet" href="/advent-of-code/css/custom.css">
-
-</head>
-<body class="code-snippets-visible">
-
-  <div class="container outer">
-    <section class="header" style="background-image: url(/advent-of-code/img/refuge.png); background-size: cover; min-height: 200px;">
+    <section class="page-header">
+      <h1 class="project-name">{{ site.title }}</h1>
+      <h2 class="project-tagline">{{ site.description }}</h2>
     </section>
 
-		{% if page.special %}
-		<nav style="width: 100%; background-color: #fff;">
-			<div style="text-align:center;"><a href="/advent-of-code/">Advent of Code in Python</a></div>
-			<div style="clear:both;"></div>
-		</nav>
-		{% else %}
-		<nav style="width: 100%; background-color: #fff;">
-			<div style="float:left; padding-left: 20px;">&laquo; <a href="/advent-of-code/{{ page.previous.url }}">Prev</a></div>
-			<div style="float:right; padding-right: 20px;"><a href="/advent-of-code/{{ page.next.url }}">Next</a> &raquo;</div>
-			<div style="text-align:center;"><a href="/advent-of-code/">Advent of Code in Python</a></div>
-			<div style="clear:both;"></div>
-		</nav>
-		{% endif %}
+    <section class="main-content">
+      {{ content }}
+    </section>
 
-	{{ content }}
-  </div>
+    <div style="width: 100%; border-top: 1px solid #cfcfcf;  padding: 20px; text-align:center">
+      {% include biofoot.md %}
+    </div>
 
-</body>
+  </body>
 </html>

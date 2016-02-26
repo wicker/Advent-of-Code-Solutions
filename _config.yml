@@ -3,17 +3,17 @@ port:        4000
 
 source:      .
 destination: ./_site
-plugins:     ./_plugins
 
 future:      true
 lsi:         false
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-permalink:   :day-:title
 
-title:       Advent of Code
-description: Brute force Python solutions everywhere!
+baseurl:        http://jennerhanni.net/advent-of-code
+
+title:       Advent of Code Solutions
+description: Brute force python everywhere!
 author:      Jenner Hanni
 email:       jeh.wicker@gmail.com
 
-exclude:     [_site]
+exclude:     [drafts, _site, scripts]
 
